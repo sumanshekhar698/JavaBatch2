@@ -7,7 +7,7 @@ public class BasicPrimitiveDataTypes {
 //		1 Byte = 8 bits
 //		integers
 		byte a = 7;
-		short b = 77;
+		short b = 77;//local variable local to main only
 		int c = 777;
 		long d;
 		d = 867886689;
@@ -27,7 +27,7 @@ public class BasicPrimitiveDataTypes {
 		isJavaEasy = false;
 
 //		character
-		char rupee = '₹';// UTF-16
+		char rupee = 'y';// UTF-16
 
 		rupee = 'A';
 		c = rupee;
@@ -38,14 +38,21 @@ public class BasicPrimitiveDataTypes {
 		System.out.println(ch);
 
 //		Java can store numbers in other format but will always print in decimal format
-		int bin = 0b101001;
+		int bin = 0b101001;//101001
 		System.out.println(bin);// Binary
 
-		int oct = 0101701;
+		int oct = 0101701;//101701
 		System.out.println(oct);// Octal
 
 		int hex = 0x789A;
 		System.out.println(hex);// Hexadecimal
+		
+		
+//		78.89
+		float num3 = 0b011010;
+		System.out.println(num3);
+//		String binaryString = Integer.toBinaryString(26);
+//		System.out.println(binaryString);
 
 	}
 
