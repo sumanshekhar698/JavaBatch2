@@ -6,16 +6,18 @@ public class BasicPrimitiveDataTypes {
 
 //		1 Byte = 8 bits
 //		integers
-		byte a = 7;
-		short b = 77;//local variable local to main only
-		int c = 777;
-		long d;
-		d = 867886689;
+		byte a = 7;//1 byte of memory = 8 bits
+		short b = 77;//local variable local to main only//2 byte = 16
+		int c = 777;//4 byte = 32 bits
+		long d;//8 byte = 64 bits
+		d = 867886689l;
 
 //		b = d;//not possible as of size limit
 		d = b;
 
 //		decimals
+		
+		
 		float e = 9.890f;// 32 bit size | f is required at end while storing float
 		double f = 9.877;// 64 bit size
 
@@ -29,7 +31,7 @@ public class BasicPrimitiveDataTypes {
 //		character
 		char rupee = 'y';// UTF-16
 
-		rupee = 'A';
+		rupee = '₹';
 		c = rupee;
 		System.out.println(c);// 8377
 
@@ -41,7 +43,7 @@ public class BasicPrimitiveDataTypes {
 		int bin = 0b101001;//101001
 		System.out.println(bin);// Binary
 
-		int oct = 0101701;//101701
+		int oct = 01017031;//101701
 		System.out.println(oct);// Octal
 
 		int hex = 0x789A;

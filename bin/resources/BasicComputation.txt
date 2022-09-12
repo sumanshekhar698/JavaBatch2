@@ -1,0 +1,14 @@
+Number System
+------------------------------------------------------------------
+
+Decimal - Base 10
+0,1,2,......9
+
+Binary - Base 2
+0,1
+
+Octal - Base 8
+0,7
+
+Hexadecimal - base 16
+0 , 9 + A-F
