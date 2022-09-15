@@ -15,7 +15,7 @@ public class Loops {
 
 //		for	loop
 //		Initialization; condition checking ; updation
-		for (int i = 0; i < input; i++) {
+		firstLoop: for (int i = 0; i < input; i++) {
 			System.out.print(i + " ");
 		}
 		System.out.println();
