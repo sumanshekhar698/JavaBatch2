@@ -1,7 +1,7 @@
 package com.java8.oops.basics;
 
 public class EmployeeMain {
-	Employee employee1;// instance varianle
+	Employee employee1;// instance variable
 
 	public static void main(String[] args) {
 
