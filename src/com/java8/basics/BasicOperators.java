@@ -67,12 +67,13 @@ public class BasicOperators {
 //		BitWise Operators
 //		DSA
 		int example = 7;
-		example = 7 << 3;// *2 //left shift 7*2*2*2 = 56
-		System.out.println(example);
-		example = 8 >> 1;// right shift 8  /2 
-		System.out.println(example);//4
-		
-		
+		example = 8 << 3;// *2 //left shift 7*2*2*2 = 56
+		System.out.println("LEFT SHIFT " + example);
+		example = 8 >> 1;// right shift 8 /2
+		System.out.println("RIGHT SHIFT " + example);
+		example = 8 >>> 1;// right shift SIGNED 8 /2
+		System.out.println("RIGHT SHIFT signed " + example);
+
 		System.out.println(7 & 65);// bitwise and
 		System.out.println(7 | 65);// bitwise or
 		System.out.println(7 ^ 65);// xor

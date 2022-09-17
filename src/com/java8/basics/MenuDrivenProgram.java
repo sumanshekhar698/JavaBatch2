@@ -50,6 +50,8 @@ public class MenuDrivenProgram {
 			System.out.println();
 		}
 
+//		scanner.close();
+
 	}
 
 }

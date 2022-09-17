@@ -1,4 +1,4 @@
-package com.java8.oops.strings;
+package com.java8.oops.strings.immutable;
 
 public class StringIntro {
 
@@ -10,7 +10,7 @@ public class StringIntro {
 		String name = "James Gosling";// String creation using String literal
 		String country = new String("Denmark");// using new Keyword
 
-//		Mutable Strings
+//		MUTABLE STRINGS
 		StringBuffer sbuf = new StringBuffer();
 		StringBuilder sbul = new StringBuilder();
 
@@ -38,25 +38,31 @@ public class StringIntro {
 		else
 			System.out.println(false);
 
-		String string2 = new String("queens");//
-		System.out.println(string2.hashCode());
+		String str4 = new String("queens");//
+		System.out.println(str4.hashCode());
 
-		String string3 = new String("queens");//
-		System.out.println(string3.hashCode());
-		string3 = "ki ng";
-		System.out.println(string3.hashCode());
+		String str5 = new String("queens");//
+		System.out.println(str5.hashCode());
+		str5 = "ki ng";
+		System.out.println(str5.hashCode());
 
-		if (string2 == string3)
+		if (str4 == str5)
 			System.out.println(true);
 		else
 			System.out.println(false);
 
-		if (string2.equals(string3))
+		if (str4.equals(str5))
 			System.out.println(true);
 		else
 			System.out.println(false);
 
-		System.out.println("We" + "wil work " + "in Java" + 8);
+		String str6 = new String("FB");//
+		System.out.println(str4.hashCode());
+
+		String str7 = new String("Ea");//
+		System.out.println(str5.hashCode());
+
+		System.out.println("We" + "will work " + "in Java" + 8);
 	}
 
 }
