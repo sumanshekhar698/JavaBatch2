@@ -26,6 +26,8 @@ public class EmployeeMain {
 		System.out.println(e0.hashCode());// 705927765
 
 		int points = e1.checkIn();
+		System.out.println("E1 toStrting() " + e1.toString());// Error
+
 		System.out.println(points);
 		System.out.println(e1.attendance);// 1
 		System.out.println(e0.attendance);// 0 All the instance variables are individual to its specific object

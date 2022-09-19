@@ -17,6 +17,7 @@ public class StringInroduction {
 		String city;
 		city = "Jaipur";
 
+		//String interning
 		String str1 = "Jamie";
 		String str2 = "Jamie";
 		String str0 = "jamie";
