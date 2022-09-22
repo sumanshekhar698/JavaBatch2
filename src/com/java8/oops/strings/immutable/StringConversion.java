@@ -13,7 +13,7 @@ public class StringConversion {
 //		System.out.println(i1.toString());
 
 //		valueOf() is a Integer Util methods
-		Integer number1 = Integer.valueOf(num);// Code Readilblity
+		Integer number1 = Integer.valueOf(num);// Code Readablity
 		System.out.println(number1);
 
 		int number2 = Integer.parseInt(num);// * REDCOMMENDED

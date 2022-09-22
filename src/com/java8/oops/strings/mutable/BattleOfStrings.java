@@ -23,6 +23,9 @@ public class BattleOfStrings {
 		end = System.nanoTime();
 		System.out.println(end - start);
 
+		System.out.println(sb);
+		System.out.println("CAPACITY ==> " + sb.capacity());
+
 //		Single Threaded ---> String Builder is preferred but we can also use String Buffer comprising some performance
 //		Multi-threaded ---> *StringBuilder is preferred for thread safety
 

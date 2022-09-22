@@ -1,0 +1,15 @@
+______________________________________
+Mutating String
+--------------------------------------
+SingleThread ===> [StringBuilder]
+MultiThread  ===> [StringBuffer]
+StringBuffer ===> thread safe
+
+________________________________________
+Arrays in Java
+----------------------------------------
+# Arrays are object
+# its a data structure
+# Its is used to store homogenous data is a single variable
+# its is contiguous in nature
+# they are non dynamic and fixed in size
