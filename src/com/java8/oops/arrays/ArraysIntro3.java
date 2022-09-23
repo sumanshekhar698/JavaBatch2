@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class ArraysIntro3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		int x[] = { 1, 4, 5 };
+
+		int x[] = { 1, -4, 5, 888, 5, 34, 9 };
 
 //		int y[] = x;
 		int[] y = new int[x.length];
