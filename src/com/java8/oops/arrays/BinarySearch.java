@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class BinarySearch {
 
+	public static int y = 9;
+
 	public static void main(String[] args) {
 
 //		int[] y = new int[Integer.MAX_VALUE];
@@ -13,6 +15,7 @@ public class BinarySearch {
 		// PreCondition check
 
 		Arrays.sort(x);
+		System.out.println(y);
 		System.out.println(Arrays.toString(x));// [-4, 1, 5, 5, 9, 34, 888]
 		int position = binarySearch(x, searchElement);
 		System.out.println(position);

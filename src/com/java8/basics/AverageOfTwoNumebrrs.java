@@ -7,8 +7,12 @@ public class AverageOfTwoNumebrrs {
 
 		int i = Integer.MAX_VALUE;
 		int j = Integer.MAX_VALUE - 100;
-
-		int m = (i + j) / 2;
+//		i =3;
+//		j =5;
+		int m;
+//		m = (i + j) / 2;
+		m = i + (j - i) / 2;
+//		m = i / 2 + j / 2;
 		System.out.println(m);
 
 	}
