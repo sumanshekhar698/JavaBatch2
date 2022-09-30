@@ -1,4 +1,4 @@
-package com.java8.oops.static_discussion;
+package com.java8.oops.constructors;
 
 //Singelton Design Patern
 public class Animal {

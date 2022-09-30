@@ -1,4 +1,4 @@
-package com.java8.oops.static_discussion;
+package com.java8.oops.constructors;
 
 public class Employee {
 
@@ -38,7 +38,6 @@ public class Employee {
 //		super();
 		this(name);// constructor chaining should always be 1st statement
 		System.out.println("Employee(name,id,phoneNo) const called");
-
 		this.name = name;// Shadow problem
 		this.id = id;
 		this.phoneNo = phoneNo;
