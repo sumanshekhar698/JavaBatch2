@@ -2,7 +2,9 @@ package com.java8.oops.encapsulation;
 
 public class FighterJet {
 
-
+	private String companyName;
+	private int speedInKmph;
+	private String typeOfJet;
 
 	public FighterJet(String companyName, int speedInMach, String typeOfJet) {
 		super();
@@ -33,8 +35,6 @@ public class FighterJet {
 				+ "]";
 	}
 	
-	private String companyName;
-	private int speedInKmph;
-	private String typeOfJet;
+
 
 }

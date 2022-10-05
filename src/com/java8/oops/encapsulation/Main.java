@@ -14,6 +14,18 @@ public class Main {
 		System.out.println(rafale.getCompanyName());
 		System.out.println(rafale.getTypeOfJet());
 
+//		Inidan Citizen
+
+		IndianCitizen i1 = new IndianCitizen();
+//		i1.setfName("Kartik");
+//		i1.setlName("Aryan");
+//		i1.setAge(33);i1.setGender("male");
+
+		i1.setAadHarNo(987879088).setfName("Kartik").setlName("Aryan").setAge(33).setGender("male").setPan("GNL987")
+				.setHavingPassport(true);
+		System.out.println(i1);
+		
+		
 
 	}
 

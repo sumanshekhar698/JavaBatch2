@@ -1,11 +1,16 @@
 package com.java8.oops.strings.mutable;
 
+import com.java8.oops.static_concepts.MathConstants;
+
 public class StringBufferBuilder {
 
 	public static void main(String[] args) {
 
 		Integer x = 9;// Autoboxing
 		int y = x;// AutoUnboxing
+
+		double xx= MathConstants.goldenRatio;
+//		MathConstants.goldenRatio = 9.8f;
 
 		// Mutable Strings
 		StringBuilder stringBuilder = new StringBuilder("ronnie");
