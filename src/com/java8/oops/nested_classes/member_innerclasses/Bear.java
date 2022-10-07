@@ -6,12 +6,14 @@ public class Bear {// Outer Class
 	int height;
 	boolean isDangerous;
 
-	void callTheBear() {
+	Cub callTheBear() {
 		System.out.println("ARGHHHHH !");
 		Cub cub = new Cub();
 		cub.callTheBear();
+		return cub;
 	}
 
+	// private entities cannot be called outside the class
 	private class Cub {// Inner class
 
 		int age;
@@ -22,7 +24,5 @@ public class Bear {// Outer Class
 		}
 
 	}
-	
-	
 
 }
