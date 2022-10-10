@@ -1,6 +1,6 @@
 package com.java8.oops.inheritance;
 
-public class Player  {
+public class Player {
 
 	String name;
 	int height;

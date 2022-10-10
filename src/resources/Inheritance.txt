@@ -1,0 +1,23 @@
+
+RULES OF INHERITANCE:
+-------------------------------------------------------------------
+* A class can extend only one class because Diamond inheritance is not allowed
+* Cross/Cycle inheritance is not allowed in Java
+* Self inheritance is not possible in Java
+
+
+***super can be used top access direct Parent only
+
+
+Method Types
+-------------------------------------------------------------------
+Inherited Method
+Specialized Method
+Overrider Method
+Concrete Methods
+
+final, private  and Inheritance
+--------------------------------------------------------------------
+final classes cannot be inherited
+private entities cannot be inherited
+final methods cannot be overidden

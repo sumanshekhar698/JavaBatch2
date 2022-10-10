@@ -9,7 +9,6 @@ public class PlayerOfFIFA_A {
 	short goalsScored;
 
 	public PlayerOfFIFA_A(String playerName, int playerNum, float height, String position, short goalsScored) {
-		// TODO Auto-generated constructor stub
 		super();
 		this.playerName = playerName;
 		this.playerNum = playerNum;

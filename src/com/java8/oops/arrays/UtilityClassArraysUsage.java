@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class UtilityClassArraysUsage {
 
 	public static void main(String[] args) {
-		// TODO
 		// Bubble Sort //Merge Sort //Quick Sort //Heap Sort
 		// Binary Search (The array should be sorted)
 
