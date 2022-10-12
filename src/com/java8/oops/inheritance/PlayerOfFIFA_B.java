@@ -20,7 +20,11 @@ public class PlayerOfFIFA_B extends Player {
 		return "PlayerOfFIFA_B [position=" + position + ", goalsScored=" + goalsScored + ", name=" + name + ", height="
 				+ height + ", weight=" + weight + ", playerNum=" + playerNum + ", country=" + country + "]";
 	}
-	
+
+
+	int getGoals(){
+		return this.goalsScored;
+	}
 	
 
 }

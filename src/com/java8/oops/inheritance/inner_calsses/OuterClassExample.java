@@ -23,7 +23,7 @@ public class OuterClassExample {
 
 	public static void main(String[] args) {
 		Outer o1 = new Outer();
-		InnerTwo i2 = o1.new InnerTwo();
+		Outer.InnerTwo i2 = o1.new InnerTwo();
 		i2.inerOneMethod();
 	}
 

@@ -7,7 +7,7 @@ public class ShapePolymorphic {
 //	* type of params
 //	* position of params 
 
-	// TODO Method Overiding
+//	OVERLOADING is also called CompiledTimePolymorphiosm
 	void shape(double lengthOfSide) {
 		System.out.println("SQUARE " + Math.pow(lengthOfSide, 2));
 	}
@@ -20,7 +20,7 @@ public class ShapePolymorphic {
 		System.out.println("CIRCLE " + Math.pow(radius, 2) * Math.PI);
 	}
 
-	void shape(String shape, int dimension) {
+	int shape(String shape, int dimension) {
 
 		switch (shape) {
 		case "sqr":
@@ -37,6 +37,7 @@ public class ShapePolymorphic {
 
 			break;
 		}
+		return 1;
 	}
 
 	void shape(int dimension, String shape) {

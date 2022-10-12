@@ -5,6 +5,7 @@ public class MainAnimal {
 	public static void main(String[] args) {
 
 		Lion l1 = new Lion();
+		l1.callOutSpecies("Gir");
 //		l1.callOutSpecies("Chinese");
 
 	}

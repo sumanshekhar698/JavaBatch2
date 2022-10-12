@@ -20,4 +20,8 @@ public class Player {
 		this.country = country;
 	}
 
+	void showPlayerNumber(){
+		System.out.println(playerNum);
+	}
+
 }
