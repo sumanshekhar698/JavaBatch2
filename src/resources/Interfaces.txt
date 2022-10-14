@@ -1,0 +1,29 @@
+RULES of ITERFACE
+
+
+An interface contain
+
+static fianl variable
+abstract methods
+
+since JDK 8
+static methods
+default methods
+
+class extends Singleclass
+interfaceA extend interfaceB
+class implement interfaceA,interfaceB
+class MngoCB extends HTTPConnection implements ConnectToDB_v2, ConnectTodatabase{
+public interface ConnectToDB_v2 extends ConnectTodatabase, Cloneable {
+
+
+Functional Interface ---> 1 abstratc method ---> Lambda
+Closable
+Autoclossable
+
+Marker Interface --> 0 Marking
+Serializable
+
+
+
+
