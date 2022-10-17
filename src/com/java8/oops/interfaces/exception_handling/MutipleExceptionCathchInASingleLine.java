@@ -2,7 +2,7 @@ package com.java8.oops.interfaces.exception_handling;
 
 import java.util.Arrays;
 
-public class Main {
+public class MutipleExceptionCathchInASingleLine {
 
 	public static void main(String[] args) {
 
@@ -21,20 +21,11 @@ public class Main {
 
 //		Thread.sleep(5000);//Checked Exception
 
-		try {
-			Thread.sleep(5000);
-			System.out.println("SLEEPING");
-			System.out.println(7 / 0);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		} catch (ArrayIndexOutOfBoundsException e) {
-			e.printStackTrace();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-//		catch (Throwable e) {
-//			e.printStackTrace();
-//		}
+
+//try {
+//	Thread.sleep(5000);//Checked Exception
+//
+//}
 
 		// Java will force you , you must handle
 		System.out.println("END");

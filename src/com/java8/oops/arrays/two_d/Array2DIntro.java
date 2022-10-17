@@ -1,10 +1,15 @@
 package com.java8.oops.arrays.two_d;
 
+import java.util.Arrays;
+
 public class Array2DIntro {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		
+		int [] arr = {4,4567,75647,676,3};
+		System.out.println(Arrays.toString(arr));
 //		Symmetric 2 D array
 		int[][] regualarSymetric2Darray = { { 1, 3, 4, 5 }, { 4, 7, 3, 8 }, { 987, 7, 8, 7 } };
 
