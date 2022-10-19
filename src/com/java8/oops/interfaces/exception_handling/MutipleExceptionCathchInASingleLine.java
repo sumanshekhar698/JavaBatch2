@@ -13,7 +13,7 @@ public class MutipleExceptionCathchInASingleLine {
 		}
 
 		System.out.println("START");
-
+ 
 		int[] arr = { 4, 6, 8, 3 };
 
 		System.out.println(args[0]);// JAVA will not force you to handle ====> Unchecked Exception
