@@ -22,6 +22,20 @@ public class Main {
 
 		new Thread(new CustomThreadUsingRunnable()).start();
 
+		Thread t2UsingLambda = new Thread(() -> {
+			for (int i = 0; i < 100; i++) {
+				try {
+					Thread.sleep(5);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				System.out.println(i + " --> " + Thread.currentThread());
+			}
+		});
+
+		t2UsingLambda.setName("Lambda thread");
+		t2UsingLambda.start();
+
 		t1.setName("BETA");
 		t1.start();
 		t1.setPriority(10);
