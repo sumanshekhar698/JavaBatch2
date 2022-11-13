@@ -8,7 +8,7 @@ public class FileCreation {
 	public static void main(String[] args) {
 
 		String x = "\"";
-		File file = new File("C:\\Users\\suman\\eclipse-workspace\\YhillsJavaBactch2\\src\\resources\\io.txt");
+		File file = new File("C:\\Users\\suman\\eclipse-workspace\\YhillsJavaBactch2\\src\\resources\\simran2.txt");
 
 		boolean report = false;
 		try {

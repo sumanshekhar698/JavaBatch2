@@ -7,7 +7,7 @@ public class HashMapExample {
 
 	public static void main(String[] args) {
 
-		HashMap<Integer, String> hashMap = new <Integer, String>HashMap(16, 0.75f);
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>(16, 0.75f);
 		hashMap.put(1, "Jack");
 		hashMap.put(2, "Jam");
 		hashMap.put(10, "Jilll");

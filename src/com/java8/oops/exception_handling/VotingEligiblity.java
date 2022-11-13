@@ -1,11 +1,11 @@
-package com.java8.oops.interfaces.exception_handling;
+package com.java8.oops.exception_handling;
 
 public class VotingEligiblity {
 
 	public static void main(String[] args) {
 		System.out.println("START");
 
-		int age = 5;
+		int age = 50;
 		try {
 			validate(age);
 		} catch (InvalidAgeException e) {
@@ -20,6 +20,7 @@ public class VotingEligiblity {
 	static void validate(int age) throws InvalidAgeException {
 		if (age <= 18)
 			throw new InvalidAgeException("Invalid AGE, Grow up first");
+//		throw new ArithmeticException();
 		else
 			System.out.println("ELIGIBLE !!");
 	}

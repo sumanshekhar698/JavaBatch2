@@ -1,4 +1,4 @@
-package com.java8.oops.interfaces.exception_handling;
+package com.java8.oops.exception_handling;
 
 public class ThrowsAndThrow {
 

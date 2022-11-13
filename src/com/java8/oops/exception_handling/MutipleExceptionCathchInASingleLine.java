@@ -1,4 +1,4 @@
-package com.java8.oops.interfaces.exception_handling;
+package com.java8.oops.exception_handling;
 
 import java.io.IOException;
 import java.sql.SQLException;

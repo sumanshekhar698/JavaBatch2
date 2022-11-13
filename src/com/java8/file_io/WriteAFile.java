@@ -9,7 +9,7 @@ public class WriteAFile {
 
 		try {
 			FileWriter fileWriter = new FileWriter(
-					"C:\\Users\\suman\\eclipse-workspace\\YhillsJavaBactch2\\src\\resources\\io.txt");
+					"C:\\Users\\suman\\eclipse-workspace\\YhillsJavaBactch2\\src\\resources\\simran.txt");
 			fileWriter.write("File Handling is Easy");
 			fileWriter.close();// flushing
 		} catch (IOException e) {

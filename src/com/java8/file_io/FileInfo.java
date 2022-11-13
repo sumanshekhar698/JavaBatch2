@@ -8,9 +8,11 @@ public class FileInfo {
 	public static void main(String[] args) {
 
 		String x = "\"";
-		File file = new File("C:\\Users\\suman\\eclipse-workspace\\YhillsJavaBactch2\\src\\resources\\io.txt");
+		File file = new File("C:\\Users\\suman\\eclipse-workspace\\YhillsJavaBactch2\\src\\resources\\simran.txt");
 
+		String x2 = "\"\\Simran\"";
 		boolean exists = file.exists();
+//		file.
 		System.out.println(exists);
 
 		if (exists) {
@@ -22,6 +24,7 @@ public class FileInfo {
 			System.out.println(name);
 			System.out.println(canRead);
 			System.out.println(canWrite);
+			
 
 		} else {
 			System.out.println("File is not existing");
